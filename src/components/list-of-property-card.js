@@ -1,6 +1,6 @@
 import React from "react"
 import PropertyCard from "./property-card"
-import * as data from "../data/property.json"
+import * as data from "../../data/property.json"
 const ListOfPropertyCard = () => {
     return (
         <React.Fragment>
