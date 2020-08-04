@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -34,8 +35,8 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with <span style={{ fontSize: "150%", color: "red" }}>&hearts;</span> by @isamrish
+        <footer style={{ textAlign: 'center', marginTop: "60px" }}>
+          © {new Date().getFullYear()}, Built with <span style={{ fontSize: "150%", color: "red" }}>&hearts;</span> by <a href="https://github.com/isamrish" target="_blank" rel="noopener noreferrer" >@isamrish</a>
         </footer>
       </div>
     </>

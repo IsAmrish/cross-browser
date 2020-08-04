@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cross Browser`,
+    title: `Cross Browser Properties`,
     description: `List of cross browser props`,
     author: `@isamrish`,
   },

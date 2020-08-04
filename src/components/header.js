@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ marginBottom: "8px", textAlign: "center" }}>
         <Link
           to="/"
           style={{
@@ -27,6 +27,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <p style={{ textAlign: 'center', color: 'white', margin: "0px", lineHeight: "30px" }}>This project is to list out those css properties whose uses way is different in cross browsers</p>
     </div>
   </header>
 )

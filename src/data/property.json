@@ -1,0 +1,13 @@
+{
+    "properties": [
+        {
+            "property-head": {
+                "title": "backface-visibility property",
+                "name": "backface-visibility"
+            },
+            "property-body": {
+                "code": "selector {\n  -webkit-backface-visibility: hidden; /* Safari */\n  backface-visibility: hidden;\n}"
+            }
+        }
+    ]
+}
