@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <p style={{ textAlign: 'center', color: 'white', margin: "0px", lineHeight: "30px" }}>This project is to list out those css properties whose uses way is different in cross browsers</p>
+      <p style={{ textAlign: 'center', color: 'white', margin: "0px", lineHeight: "30px" }}>This project is to list out those css properties whose usage way is different in different browsers</p>
     </div>
   </header>
 )
