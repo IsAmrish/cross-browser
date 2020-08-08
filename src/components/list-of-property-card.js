@@ -5,7 +5,11 @@ const ListOfPropertyCard = () => {
     return (
         <React.Fragment>
             {data.properties.map(property => {
-                return (<PropertyCard propertyHead={property["property-head"]} propertyBody={property["property-body"]} />)
+                return (
+                    <div style={{ marginBottom: '20px' }}>
+                        <PropertyCard propertyHead={property["property-head"]} propertyBody={property["property-body"]} />
+                    </div>
+                )
             })}
         </React.Fragment>
     )
