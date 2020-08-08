@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/cross-browser",
   siteMetadata: {
     title: `Cross Browser Properties`,
     description: `List of cross browser props`,
