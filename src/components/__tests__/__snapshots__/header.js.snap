@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component test Render Header 1`] = `
+<header
+  style={
+    Object {
+      "background": "rebeccapurple",
+      "marginBottom": "1.45rem",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+        "padding": "1.45rem 1.0875rem",
+      }
+    }
+  >
+    <h1
+      style={
+        Object {
+          "marginBottom": "8px",
+          "textAlign": "center",
+        }
+      }
+    >
+      <a
+        aria-current="page"
+        className=""
+        href="/"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        style={
+          Object {
+            "color": "white",
+            "textDecoration": "none",
+          }
+        }
+      >
+        Cross Browser header
+      </a>
+    </h1>
+    <p
+      style={
+        Object {
+          "color": "white",
+          "lineHeight": "30px",
+          "margin": "0px",
+          "textAlign": "center",
+        }
+      }
+    >
+      This project is to list out those css properties whose usage way is different in different browsers
+    </p>
+  </div>
+</header>
+`;

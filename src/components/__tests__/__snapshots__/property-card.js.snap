@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListOfPropertyCard component test Render ListOfPropertyCard 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid grey",
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "background": "lightblue",
+        "marginBottom": "30px",
+        "padding": "16px",
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "margin": "0px",
+        }
+      }
+    >
+      abc property
+    </h2>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#c2ddf0",
+        "padding": "16px",
+      }
+    }
+  >
+    <h3>
+      How to use it
+    </h3>
+    <code>
+      <pre
+        style={
+          Object {
+            "backgroundColor": "#e4ecf2",
+          }
+        }
+      >
+        
+selector {
+  -webkit-abc: hidden; /* Safari */
+  abc: hidden;
+}
+
+      </pre>
+    </code>
+  </div>
+</div>
+`;
